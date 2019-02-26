@@ -50,7 +50,6 @@ def click(page, doc)
   end
 end
 
-https://property.ncc.nsw.gov.au/T1PRPROD/WebApps/eProperty/P1/eTrack/eTrackApplicationDetails.aspx?r=TCON.LG.WEBGUEST&f=%24P1.ETR.APPDET.VIW&ApplicationId=CD2019%2f00038
 url = "https://property.ncc.nsw.gov.au/T1PRPROD/WebApps/eProperty/P1/eTrack/eTrackApplicationSearchResults.aspx?Field=S&Period=" + period + "&r=TCON.LG.WEBGUEST&f=%24P1.ETR.SEARCH.STM"
 info_url = "https://property.ncc.nsw.gov.au/T1PRPROD/WebApps/eProperty/P1/eTrack/eTrackApplicationDetails.aspx?r=TCON.LG.WEBGUEST&f=$P1.ETR.APPDET.VIW&ApplicationId="
 comment_url = "mailto:mail@ncc.nsw.gov.au"
