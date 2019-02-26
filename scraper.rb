@@ -51,9 +51,9 @@ def click(page, doc)
 end
 
 
-url = "https://eservices.kmc.nsw.gov.au/T1ePropertyProd/P1/eTrack/eTrackApplicationSearchResults.aspx?Field=S&Period=" + period + "&r=KC_WEBGUEST&f=P1.ETR.SEARCH.STW"
-info_url = "https://eservices.kmc.nsw.gov.au/T1ePropertyProd/P1/eTrack/eTrackApplicationDetails.aspx?r=KC_WEBGUEST&f=$P1.ETR.APPDET.VIW&ApplicationId="
-comment_url = "mailto:kmc@kmc.nsw.gov.au"
+url = "https://property.ncc.nsw.gov.au/T1PRPROD/WebApps/eProperty/P1/eTrack/eTrackApplicationSearchResults.aspx?Field=S&Period=" + period + "&r=KC_WEBGUEST&f=P1.ETR.SEARCH.STW"
+info_url = "https://property.ncc.nsw.gov.au/T1PRPROD/WebApps/eProperty/P1/eTrack/eTrackApplicationDetails.aspx?r=KC_WEBGUEST&f=$P1.ETR.APPDET.VIW&ApplicationId="
+comment_url = "mailto:mail@ncc.nsw.gov.au"
 
 agent = Mechanize.new
 
